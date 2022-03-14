@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * main - main block
-* return : 0 Always (success)
+* Return : 0 Always (success)
 */
 int main(void)
 {
