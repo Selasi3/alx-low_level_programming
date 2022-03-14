@@ -3,23 +3,25 @@
 #include <stdio.h>
 /**
  * main - main block
- * Return: Always 0 (Success)
+ * return : 0 Always (success)
  */
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-if (n>0){
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+{
 printf("%d is positive\n", n);
 }
-else if (n==0){
-printf("%d is zero\n", n);
-}
-else
+else if (n < 0)
 {
 printf("%d is negative\n", n);
 }
-return (0);
+else
+{
+printf("%d is zero\n", n);
 }
-
+	return (0);
+}
