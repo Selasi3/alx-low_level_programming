@@ -14,7 +14,6 @@ for (letter = 97 ; letter <103 ; letter++)
 {
 putchar(letter);
 }
-
 putchar('\n');
 return (0);
 }
