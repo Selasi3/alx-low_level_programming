@@ -6,12 +6,11 @@
 
 int main(void)
 {
-int letter;
-for (letter = 0; letter <= 10; letter++)
+int number;
+for (number = 0; number <= 10; number++)
 {
-	putchar(letter);
+printf("%d", number);
 }
-putchar('\n');
-
+printf("\n");
 return (0);
 }
